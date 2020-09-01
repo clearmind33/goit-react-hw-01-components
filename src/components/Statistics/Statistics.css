@@ -1,0 +1,53 @@
+.statistics {
+  background-color: white;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 5px 8px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 5px 8px 1px rgba(0,0,0,0.75);
+  box-shadow: 1px 5px 8px 1px rgba(0,0,0,0.75);
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  padding: 1.5rem;
+  font-weight: 500;
+  color: #768696;
+}
+ul {
+  display: flex;
+}
+.item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1rem 0;
+  min-width: 4.5rem;
+}
+.item .label {
+  font-size: 0.75rem;
+  color: white
+}
+.item .percentage {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  color: white
+}
+.item:nth-child(1) {
+  background-color: #4AC7F5;
+}
+.item:nth-child(2) {
+  background-color: #A43CF3;
+}
+.item:nth-child(3) {
+  background-color: #E54D62;
+}
+.item:nth-child(4) {
+  background-color: #20B8C5;
+}
+.item:nth-child(5) {
+  background-color: #6EB576;
+}

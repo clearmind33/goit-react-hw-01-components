@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import user from './user.json';
+import statisticalData from './statistical-data.json';
+import { Profile } from './components/Profile/Profile.jsx'
+import { Statistics } from './components/Statistics/Statistics.jsx'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Profile avatar={user.avatar} name={user.name} tag={user.tag} location={user.location} stats={user.stats} />
+      <Statistics title="Upload stats" stats={statisticalData} />
     </div>
   );
 }
