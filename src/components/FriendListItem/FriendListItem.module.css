@@ -1,4 +1,4 @@
-.list-item {
+.list_item {
   display: flex;
   padding: 0.5rem 1rem;
   border-radius: 0.2rem;
@@ -9,11 +9,11 @@
   -moz-box-shadow: 1px 5px 8px 1px rgba(0,0,0,0.75);
   box-shadow: 1px 5px 8px 1px rgba(0,0,0,0.75);
 }
-.list-item .avatar {
+.avatar {
   margin: 0 1rem;
   border-radius: 0.5rem;
 }
-.list-item .name {
+.name {
   font-size: 1.5rem;
   font-weight: 500;
 }

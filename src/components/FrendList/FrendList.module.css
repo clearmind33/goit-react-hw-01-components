@@ -1,4 +1,4 @@
-.friend-list {
+.friend_list {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
